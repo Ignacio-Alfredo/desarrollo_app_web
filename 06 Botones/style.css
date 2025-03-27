@@ -1,0 +1,39 @@
+*{
+    margin: 5px;
+}
+
+.container{
+    /*width: auto;*/
+}
+
+.Buscar{
+    padding: 5px 10px;
+    border: 2px solid #00A5A5;
+    width: 130px;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    color:#00A5A5;
+    cursor: pointer;
+}
+
+.mmas{
+    border: solid #00d1b2;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #00d1b2;
+    color:white;
+    cursor: pointer;
+}
+
+.cuenta{
+    padding: 6px 10px;
+    border: 2px solid black;
+    width: 200px;
+    background-color: #2b78e4;
+    color:white;
+    font-size: 18px;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
