@@ -1,10 +1,11 @@
 *{
-    margin: 5;
-    outline: solid 1px rgb(0, 4, 255);
+    /*outline: solid 1px rgb(0, 4, 255);*/
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body{
-    background-color: #f5f5fe;
+    /*background-color: #e7e7f0;*/
     text-align: center;
     width: 100%;
     display:flex;
@@ -13,25 +14,21 @@ body{
 
 .container{
     width: 800px;
-    display:flex;
     justify-content: center;
     flex-flow: column;
-    gap: 15px;
 
 }
 
-.celeste, .rosa, .blanco{
+/*.celeste, .rosa, .blanco, .rojo, .verde{
     justify-content: space-around;
     height: 250px;
     display:flex;
     align-items: center;
-}
+}*/
 
 
 .celeste{
     background-color: #65d1ff;
-    display:flex;
-    justify-content: space-around;
 }
 
 .rosa{
@@ -40,6 +37,14 @@ body{
 
 .blanco{
     background-color: white;
+}
+
+.rojo{
+    background-color: rgb(255, 152, 152);
+}
+
+.verde{
+    background-color: rgb(152, 255, 221);
 }
 
 
