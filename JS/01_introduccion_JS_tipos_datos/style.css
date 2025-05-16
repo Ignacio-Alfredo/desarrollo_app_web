@@ -1,0 +1,10 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+header{
+    background-color: rgb(70, 57, 255);
+    color:white;
+    padding: 20px;
+}

@@ -1,10 +1,12 @@
 *{
     outline: solid 1px rgb(0, 4, 255);
-    background-color: #fdf6ec;
     margin: 0;
     padding: 0;
 }
 
+.container{
+    background-color: #fdf6ec;
+}
 
 .superior{
     height: 180px;
@@ -18,7 +20,6 @@
     border-radius: 10px;
     margin: 80px 160px 0px 160px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-
 }
 
 .bl0{
@@ -28,15 +29,12 @@
     margin: 50px 40px 0px 40px;
     border-radius: 10px;
 }
-.bloques{
-    justify-content: center;
-    display:flex;
-}
-.blo{
+
+.bl1, .bl2, .bl3{
     background-color: #d35400;
-    height: 180px;
-    width: 100px;
+    height: 100px;
+    width: 200px;
+    margin:20px;
     border-radius: 10px;
-    margin: 20px;
-    flex: 1;
+    
 }
