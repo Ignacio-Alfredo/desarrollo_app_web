@@ -73,9 +73,8 @@ p {
 
 button {
     border-radius: 4px;
-    background-color: #44a2de;
-    color: white;
-    border: none;
+    background-color: white;
+    border-color: #44a2de;
     width: 100px;
     height: 30px;
     font-size: 16px;
@@ -83,6 +82,6 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
-    background-color: #2b86bf;
+button {
+    color: #44a2de;
 }
