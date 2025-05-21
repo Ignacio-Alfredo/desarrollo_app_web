@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <h2>Perfil</h2>
+        </div>
+        <div class="navbar-right">
+            <a href="#">Inicio</a>
+            <a href="#">Mi perfil</a>
+            <a href="#">Conexiones</a>
+            <button class="btn-cerrar">Cerrar sesión</button>
+        </div>
+    </nav>
+
+    <main class="main-container">
+        <!-- Perfil -->
+        <section class="perfil">
+            <div class="perfil-header"></div>
+            <div class="perfil-body">
+                <img class="avatar" src="img/user-icon.png" alt="avatar">
+                <h2>Jane Doe</h2>
+                <p class="ubicacion">Bergen, Noruega</p>
+                <p class="descripcion">Desarrolladora Frontend</p>
+                <p class="descripcion">Conocimientos en HTML, CSS, JavaScript</p>
+                <div class="editar-perfil">
+                    <img src="img/gear.png" alt="configuración">
+                    <a href="#">Editar perfil</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conexiones -->
+        <section class="conexiones">
+            <!-- Solicitudes -->
+            <div class="solicitudes">
+                <div class="encabezado">
+                    <h3>Solicitudes de conexión</h3>
+                    <button>Ver todas</button>
+                </div>
+                <div class="item">
+                    <p><img src="img/user-icon.png"> Steve Jobs</p>
+                    <div class="acciones">
+                        <img src="img/check-icon.png" alt="Aceptar">
+                        <img src="img/delete-1-icon.png" alt="Rechazar">
+                    </div>
+                </div>
+                <div class="item">
+                    <p><img src="img/user-icon.png"> Bill Gates</p>
+                    <div class="acciones">
+                        <img src="img/check-icon.png" alt="Aceptar">
+                        <img src="img/delete-1-icon.png" alt="Rechazar">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tus conexiones -->
+            <div class="tus-conexiones">
+                <div class="encabezado">
+                    <h3>Tus conexiones</h3>
+                    <button>Ver todas</button>
+                </div>
+                <p><img src="img/user-icon.png"> Richard Stallman</p>
+                <p><img src="img/user-icon.png"> Linus Torvalds</p>
+                <p><img src="img/user-icon.png"> Ada Lovelace</p>
+                <p><img src="img/user-icon.png"> Grace Hopper</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
