@@ -40,7 +40,6 @@ body {
     padding: 30px;
 }
 
-/* PERFIL */
 .perfil {
     width: 350px;
     border: 1px solid #ccc;
@@ -91,7 +90,6 @@ body {
     width: 18px;
 }
 
-/* CONEXIONES */
 .conexiones {
     display: flex;
     flex-direction: column;
