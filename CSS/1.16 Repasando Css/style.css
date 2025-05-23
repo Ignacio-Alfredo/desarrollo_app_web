@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: solid 1px rgb(0, 0, 0);
+}
+
+.container{
+    background-color: rgb(180, 180, 180);
+    height: 750px;
+    width: 600px;
+    display:flex;
+    margin:auto;
+}
+
+.arriba{
+    height: 340px;
+    width: 600px;
+    margin: 20px;
+}
+
+/*.iz{
+    width: 360px;
+    height: 340px;
+}*/
+
+.parteU{
+    background-color: aqua ;
+    width: 360px;
+    height: 220px;
+}
