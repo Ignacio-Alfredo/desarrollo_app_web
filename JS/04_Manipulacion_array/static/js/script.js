@@ -61,5 +61,6 @@ let historial = []
 function historialPro(){
     let mensaje = prompt ("Agregar un mensaje: ")
     historial.push(mensaje)
-
+    let mensaje2 = prompt("Agregar un mensaje ")
+    historial.push(mensaje2)
 }
